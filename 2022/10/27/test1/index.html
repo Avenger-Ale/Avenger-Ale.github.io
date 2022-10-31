@@ -16,23 +16,23 @@
   <meta name="author" content="AvengerAle">
   <meta name="keywords" content="">
   
-    <meta name="description" content="File dir &#x3D; new File(&quot;directoryName&quot;); String children &#x3D; dir.list; if (children &#x3D;&#x3D; ) &amp;#123; &#x2F;&#x2F; Either dir does not exist or is not a directory &amp;#125; else &amp;#123; for (int i&#x3D;0; i &lt; children">
+    <meta name="description" content="&amp;#123;   &quot;name&quot;: &quot;hexo-site&quot;,   &quot;version&quot;: &quot;0.0.0&quot;,   &quot;private&quot;: true,   &quot;hexo&quot;: &amp;#123;     &quot;version&quot;: &quot;&quot;   &amp;#125;,   &amp;q">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Test">
+<meta property="og:title" content="Test2">
 <meta property="og:url" content="https://avenger-ale.github.io/2022/10/27/test1/index.html">
 <meta property="og:site_name" content="AvengerAle-BLOG">
-<meta property="og:description" content="File dir &#x3D; new File(&quot;directoryName&quot;); String children &#x3D; dir.list; if (children &#x3D;&#x3D; ) &amp;#123; &#x2F;&#x2F; Either dir does not exist or is not a directory &amp;#125; else &amp;#123; for (int i&#x3D;0; i &lt; children">
+<meta property="og:description" content="&amp;#123;   &quot;name&quot;: &quot;hexo-site&quot;,   &quot;version&quot;: &quot;0.0.0&quot;,   &quot;private&quot;: true,   &quot;hexo&quot;: &amp;#123;     &quot;version&quot;: &quot;&quot;   &amp;#125;,   &amp;q">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://avenger-ale.github.io/img/avenger.png">
 <meta property="article:published_time" content="2022-10-27T02:20:35.000Z">
-<meta property="article:modified_time" content="2022-10-27T03:30:09.000Z">
+<meta property="article:modified_time" content="2022-10-31T08:22:11.652Z">
 <meta property="article:author" content="AvengerAle">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://avenger-ale.github.io/img/avenger.png">
   
   
   
-  <title>Test - AvengerAle-BLOG</title>
+  <title>Test2 - AvengerAle-BLOG</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +204,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Test"></span>
+            <span id="subtitle" data-typed-text="Test2"></span>
           
         </div>
 
@@ -227,7 +227,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          776 字
+          659 字
         
       </span>
     
@@ -238,7 +238,7 @@
         
         
         
-          7 分钟
+          6 分钟
         
       </span>
     
@@ -276,38 +276,30 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Test</h1>
+            <h1 style="display: none">Test2</h1>
             
             
               <div class="markdown-body">
                 
-                <pre><code class="bash">File dir = new File(&quot;directoryName&quot;);
-String children = dir.list;
-if (children == ) &#123;
-// Either dir does not exist or is not a directory
-&#125; else &#123;
-for (int i=0; i &lt; children.length; i++) &#123;
-// Get filename of file or directory
-String filename = children[i];
+                <pre><code class="bash">&#123;
+  &quot;name&quot;: &quot;hexo-site&quot;,
+  &quot;version&quot;: &quot;0.0.0&quot;,
+  &quot;private&quot;: true,
+  &quot;hexo&quot;: &#123;
+    &quot;version&quot;: &quot;&quot;
+  &#125;,
+  &quot;dependencies&quot;: &#123;
+    &quot;hexo&quot;: &quot;^3.8.0&quot;,
+    &quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,
+    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,
+    &quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,
+    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,
+    &quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,
+    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,
+    &quot;hexo-renderer-marked&quot;: &quot;^0.3.2&quot;,
+    &quot;hexo-server&quot;: &quot;^0.3.3&quot;
+  &#125;
 &#125;
-&#125;
-// It is also possible to filter the list of returned files.
-// This example does not return any files that start with `.&#39;.
-FilenameFilter filter = new FilenameFilter &#123;
-public boolean accept(File dir, String name) &#123;
-return !name.startsWith(&quot;.&quot;);
-&#125;
-&#125;;
-children = dir.list(filter);
-// The list of files can also be retrieved as File objects
-File files = dir.listFiles;
-// This filter only returns directories
-FileFilter fileFilter = new FileFilter &#123;
-public boolean accept(File file) &#123;
-return file.isDirectory;
-&#125;
-&#125;;
-files = dir.listFiles(fileFilter);
 </code></pre>
 <p>测试代码</p>
 
@@ -327,7 +319,7 @@ files = dir.listFiles(fileFilter);
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Test</div>
+      <div>Test2</div>
       <div>https://avenger-ale.github.io/2022/10/27/test1/</div>
     </div>
     <div class="license-meta">

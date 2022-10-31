@@ -17,11 +17,11 @@
   
   
   <entry>
-    <title>Test</title>
+    <title>Test2</title>
     <link href="/2022/10/27/test1/"/>
     <url>/2022/10/27/test1/</url>
     
-    <content type="html"><![CDATA[<pre><code class="bash">File dir = new File(&quot;directoryName&quot;);String children = dir.list;if (children == ) &#123;// Either dir does not exist or is not a directory&#125; else &#123;for (int i=0; i &lt; children.length; i++) &#123;// Get filename of file or directoryString filename = children[i];&#125;&#125;// It is also possible to filter the list of returned files.// This example does not return any files that start with `.&#39;.FilenameFilter filter = new FilenameFilter &#123;public boolean accept(File dir, String name) &#123;return !name.startsWith(&quot;.&quot;);&#125;&#125;;children = dir.list(filter);// The list of files can also be retrieved as File objectsFile files = dir.listFiles;// This filter only returns directoriesFileFilter fileFilter = new FileFilter &#123;public boolean accept(File file) &#123;return file.isDirectory;&#125;&#125;;files = dir.listFiles(fileFilter);</code></pre><p>测试代码</p>]]></content>
+    <content type="html"><![CDATA[<pre><code class="bash">&#123;  &quot;name&quot;: &quot;hexo-site&quot;,  &quot;version&quot;: &quot;0.0.0&quot;,  &quot;private&quot;: true,  &quot;hexo&quot;: &#123;    &quot;version&quot;: &quot;&quot;  &#125;,  &quot;dependencies&quot;: &#123;    &quot;hexo&quot;: &quot;^3.8.0&quot;,    &quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,    &quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,    &quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,    &quot;hexo-renderer-marked&quot;: &quot;^0.3.2&quot;,    &quot;hexo-server&quot;: &quot;^0.3.3&quot;  &#125;&#125;</code></pre><p>测试代码</p>]]></content>
     
     
     
