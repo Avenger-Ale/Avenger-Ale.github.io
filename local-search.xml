@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/10/31/hello-world/"/>
+    <url>/2022/10/31/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Test</title>
+    <link href="/2022/10/27/test1/"/>
+    <url>/2022/10/27/test1/</url>
+    
+    <content type="html"><![CDATA[<pre><code class="bash">File dir = new File(&quot;directoryName&quot;);String children = dir.list;if (children == ) &#123;// Either dir does not exist or is not a directory&#125; else &#123;for (int i=0; i &lt; children.length; i++) &#123;// Get filename of file or directoryString filename = children[i];&#125;&#125;// It is also possible to filter the list of returned files.// This example does not return any files that start with `.&#39;.FilenameFilter filter = new FilenameFilter &#123;public boolean accept(File dir, String name) &#123;return !name.startsWith(&quot;.&quot;);&#125;&#125;;children = dir.list(filter);// The list of files can also be retrieved as File objectsFile files = dir.listFiles;// This filter only returns directoriesFileFilter fileFilter = new FileFilter &#123;public boolean accept(File file) &#123;return file.isDirectory;&#125;&#125;;files = dir.listFiles(fileFilter);</code></pre><p>测试代码</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
